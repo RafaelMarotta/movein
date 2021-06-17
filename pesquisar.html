@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="libs/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MoveIn</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #pesquisar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div id="navbar"></div>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <input id="pesquisarForm" class="form-control" type="search" placeholder="&#128269; Pesquisar filme" aria-label="Search">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center" id="bannerContainer">
+        </div>
+    </div>
+    <script src="./js/pesquisar.js"></script>
+    <script src="./js/navbar.js"></script>
+</body>
+
+</html>

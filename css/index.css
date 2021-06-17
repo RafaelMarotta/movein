@@ -1,0 +1,135 @@
+.navbar-nav>li>a::after {
+    content: '|';
+    padding-left: 10px;
+}
+
+/*MAX SM*/
+@media (max-width: 1000px) {
+    .navbar-nav>li>a::after {
+        content: none;
+        padding-left: 0;
+    }
+    .form-select {
+        width: 50%!important;
+    }
+    .search-form {
+        width: 100%!important;
+    }
+}
+
+/*MIN SM*/
+@media (min-width: 768px) {
+    .w-md-33 {
+        width: 40%;
+    }
+    .w-md-60 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .border-bottom-analise {
+        box-shadow: 0 4px 2px -2px gray;
+    }
+}
+    
+
+.navbar-nav>li:last-child>a::after {
+    content: none;
+}
+
+.bg-light-dark {
+    background: #c0c0c0;
+}
+
+.btn-dark {
+    background: #565656;
+}
+
+.bg-light {
+    background-color: #eee!important;
+}
+
+.nav-link {
+    color: #000!important;
+}
+
+.nav-link:hover {
+    opacity: 0.55;
+    transition: opacity 0.75s;
+}
+
+.text-dark::placeholder {
+    color: black;
+}
+
+.search {
+    border: 0.15px solid rgba(0, 0, 0, 0.5);
+}
+
+.search:focus {
+    background: #c0c0c0;
+    outline:none;
+    box-shadow: 1px 1px 1px 1px;
+    border: 0.15px solid rgba(0, 0, 0, 0.8);
+}
+
+p {
+    font-size: 15px!important;
+}
+
+.carrousel-item {
+    cursor: pointer;
+    list-style: none;
+    width: 12px;
+    height: 12px;
+    background: #c1c1c1;
+    border-radius: 50%;
+}
+
+.carrousel-item:not(:first-child) {
+    margin-left: 2px;
+}
+
+.carrousel-active-item {
+    background: #515151;
+}
+
+.fa-star {
+    color: #c3c3c3;
+}
+
+.selected-star {
+    color: #666;
+}
+
+.break-word {
+    word-break: break-all;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.tag:hover {
+    text-decoration: none;
+    color:#c1c1c1;
+}
+
+.tag {
+    text-decoration: none;
+    background-color: #838383;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tag:not(:first-child) {
+    margin-left: 5px;
+}
+
+.novidade-container:not(:last-child) {
+    box-shadow: 0 4px 2px -2px gray;
+}      
