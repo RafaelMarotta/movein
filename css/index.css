@@ -66,7 +66,8 @@ a {
 }
 
 .linear-background {
-    background-image: linear-gradient(to right, rgba(13.73%, 10.59%, 7.45%, 1.00) 160px, rgba(13.73%, 10.59%, 7.45%, 0.84) 100%);
+    min-height: 500px;
+    background-image: linear-gradient(to right, rgba(13.73%, 10.59%, 7.45%, 1.00) 100%, rgba(13.73%, 10.59%, 7.45%, 0.84) 100%);
 }
 
 .img-background {
@@ -76,6 +77,3 @@ a {
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
